@@ -17,9 +17,6 @@ venv\Scripts\activate   # Windows
 
 3. **Create `.env` file** with your AWS configuration:
 ```
-AWS_REGION=us-west-2
-S3_BUCKET_NAME=your-bucket-name
-DYNAMODB_TABLE_NAME=workshop-notes
 LAMBDA_API_ENDPOINT=https://8sx6zpduag.execute-api.us-west-2.amazonaws.com/upload
 ```
 
