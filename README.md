@@ -12,9 +12,8 @@ pip install streamlit boto3 python-dotenv Pillow requests
 ```bash
 python3 -m venv venv
 source venv/bin/activate   # macOS / Linux
-
-# Windows:
-# venv\Scripts\activate
+venv\Scripts\activate   # Windows
+```
 
 3. **Create `.env` file** with your AWS configuration:
 ```
