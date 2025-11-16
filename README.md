@@ -8,8 +8,15 @@ A simple app to learn AWS S3, Lambda, and DynamoDB by uploading notes and extrac
 ```bash
 pip install streamlit boto3 python-dotenv Pillow requests
 ```
+2. **Create and activate a virtual environment**
+```bash
+python3 -m venv venv
+source venv/bin/activate   # macOS / Linux
 
-2. **Create `.env` file** with your AWS configuration:
+# Windows:
+# venv\Scripts\activate
+
+3. **Create `.env` file** with your AWS configuration:
 ```
 AWS_REGION=us-west-2
 S3_BUCKET_NAME=your-bucket-name
@@ -17,9 +24,9 @@ DYNAMODB_TABLE_NAME=workshop-notes
 LAMBDA_API_ENDPOINT=https://your-api-gateway-url.amazonaws.com/prod/extract
 ```
 
-3. **Run the app:**
+4. **Run the app:**
 ```bash
-streamlit run app.py
+streamlit run app_easy.py or streamlit run app_hard.py
 ```
 
 The app will open at `http://localhost:8501`
