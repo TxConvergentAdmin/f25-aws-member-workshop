@@ -20,7 +20,7 @@ venv\Scripts\activate   # Windows
 AWS_REGION=us-west-2
 S3_BUCKET_NAME=your-bucket-name
 DYNAMODB_TABLE_NAME=workshop-notes
-LAMBDA_API_ENDPOINT=https://your-api-gateway-url.amazonaws.com/prod/extract
+LAMBDA_API_ENDPOINT=https://8sx6zpduag.execute-api.us-west-2.amazonaws.com/upload
 ```
 
 4. **Run the app:**
